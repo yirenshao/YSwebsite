@@ -74,7 +74,7 @@
   --bittersweet-shimmer: hsl(0, 43%, 51%);
   --green01: hsl(68,27%,28%);
   --transparent01: rgba(225, 232, 227, 0.293);
-  --green02: hsl(80,42%,11%);
+  --green02: hsl(80, 23%, 16%);
   --green00:rgba(189,195,167,0.4);
   --green03:  hsl(75, 41%, 15%);
 
@@ -364,7 +364,7 @@ main {
 
 .info-content .title {
   color: var(--white-1);
-  background: var(--green01);
+  background: var(--green02);
   font-size: var(--fs-7);
   font-weight: var(--fw-400);
   width: max-content;
@@ -441,13 +441,13 @@ main {
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: var(--fs-7);
-  font-weight: 700;
+  font-size: var(--fs-5);
+  font-weight: 800;
 }
 
 .contact-info address { font-style: normal; }
@@ -482,7 +482,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: var(--green01);
+  background: var(--green02);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -560,7 +560,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: hsl(240, 2%, 13%); 
+  background: var(--green02); /* used to be hsl(240, 2%, 13%)*/
   border-radius: inherit;
   z-index: -1;
 }
