@@ -286,7 +286,7 @@ article.active {
 
 .content-card {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--green00);
   padding: 15px;
   padding-top: 45px;
   border-radius: 14px;
@@ -299,7 +299,7 @@ article.active {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: var(--green02);
   border-radius: inherit;
   z-index: -1;
 }
@@ -484,8 +484,8 @@ main {
   width: 100%;
   background: var(--green02);
   backdrop-filter: blur(10px);
-  border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
+  border: 1px solid var(--green00);
+  border-radius: 12px 12px 12px 12px;
   box-shadow: var(--shadow-2);
   z-index: 5;
 }
@@ -549,7 +549,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--border-gradient-jet);
+  background: var(--green00);
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
