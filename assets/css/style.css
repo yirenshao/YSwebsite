@@ -68,6 +68,7 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola2:rgb(237, 164, 80);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -507,7 +508,7 @@ main {
   transition: color var(--transition-1);
 }
 
-.navbar-link-nopage {
+.navbar-nopage {
   color: var(--white-2);
   font-size: var(--fs-6);
   padding: 20px 7px;
@@ -525,8 +526,8 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--white-2);font-size: var(--fs-4); }
 
-.navbar-link-nopage:hover,
-.navbar-link-nopage:focus { color: var(--white-2);font-size: var(--fs-4); }
+.navbar-nopage:hover,
+.navbar-nopage:focus { color: var(--white-2);font-size: var(--fs-4); }
 
 .navbar-link-contact:hover,
 .navbar-link-contact:focus { color: var(--white-2); }
@@ -536,7 +537,8 @@ main {
 .navbar-link-contact.active { color: var(--orange-yellow-crayola); }
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
-.navbar-link-nopage:visited { color: var(--orange-yellow-crayola); }
+.navbar-nopage:visited { color: var(--orange-yellow-crayola2);font-weight: var(--fw-700); }
+.navbar-nopage.active { color: var(--orange-yellow-crayola2);font-weight: var(--fw-700); }
 
 
 
